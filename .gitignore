@@ -1,0 +1,28 @@
+# === PYTHON / DJANGO ===
+# Ignore Python virtual environment
+car_backend/car_venv/
+# Ignore Python bytecode
+*.py[cod]
+__pycache__/
+# Django DB and logs (if any)
+*.sqlite3
+*.log
+
+# === REACT / TYPESCRIPT FRONTEND ===
+# Ignore frontend node_modules and build artifacts
+car_frontend/car_inventory/node_modules/
+car_frontend/node_modules/
+build/
+dist/
+
+# === ENVIRONMENT / SECRETS ===
+*.env
+
+# === OS & EDITOR JUNK ===
+.DS_Store
+.vscode/
+
+# === GENERAL ===
+*.swp
+*.swo
+Thumbs.db
